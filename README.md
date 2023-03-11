@@ -3,8 +3,15 @@
 ## Build Setup
 
 ```bash
-# install dependencies
-$ npm install
+#setup project
+npm install
+npm run docker:setup
+
+#start project
+npm run docker:start
+
+#stop project
+npm run docker:stop
 
 # serve with hot reload at localhost:3000
 $ npm run dev
